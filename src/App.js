@@ -31,7 +31,6 @@ class App extends React.Component {
             loanInterest: jsonData.interestRate,
             monthlyAmount: jsonData.monthlyPayment.amount,
             dollar: jsonData.monthlyPayment.currency,
-            nosPayments: jsonData.numPayments,
             dataShow: true
           });
           //console.log(this.state);
